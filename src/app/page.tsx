@@ -2,7 +2,7 @@ import Product from "./components/Product";
 import { ProductType } from "./types/ProductType";
 
 async function getProducts() {
-  const res = await fetch('https://api.escuelajs.co/api/v1/products')
+  const res = await fetch('https://fakestoreapi.com/products')
   if (!res.ok) {
     throw new Error('failed to fetch data.')
 
